@@ -3,123 +3,143 @@
 body{
     margin: 0;
     font-family: Tahoma;
+}
+
+/* === Estilos globais === */
+
+.secao{
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center;
 }
-p{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+
+.paragrafo{
+    margin: 10px auto;
     width: 980px;
     text-align: justify;
     font-size: 18px;
     line-height: 28px;
 }
-.secao-1{
+
+/* === 1° Seção === */
+
+.topo {
     background-color: #afddfb;
 }
-.logo-imobiliaria{
+
+.topo img {
     width: 150px;
 }
-.links{
+
+.paragrafo-topo {
+    text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
-    text-align: center;
 }
-.secao-1 p a{
-    font-size: 18px;
+
+.link-topo {
     color: #1d1d1d;
-    border-bottom: 2px solid #1d1d1d;
-    margin: 0 10px 0 10px ;
+    font-size: 18px;
     text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
 }
-.secao-2{
-    margin-top: 50px;
+
+/* ===  2ª seção === */
+
+.banner {
     padding-top: 0;
+    margin-top: 50px;
 }
-span{
+
+/* ===  estilos para destaques === */
+
+span {
     font-weight: bold;
 }
-.secao-3 h1{
+
+/* ===  3ª seção === */
+
+h1 {
     color: #1d1d1d;
-    margin-bottom: 5px;  
+    margin-bottom: 5px;
 }
-.secao-3 h2{
+
+h2 {
+    font-weight: normal;
     color: #1c81c0;
+    margin-top: 0;
 }
-.secao-3 img{
+
+.imagem {
     width: 450px;
 }
-.texto-azul span{
+
+.texto-azul {
     color: #1d80c1;
 }
-.secao-4{
+
+/* ===  4ª seção === */
+
+.servicos, .contato {
     background-color: #1d80c1;
-    color: #ffffff;
 }
-.secao-4 h2{
+
+h3 {
+    color: #ffffff;
     font-size: 28px;
     line-height: 42px;
 }
-.secao-4 p{
+
+.paragrafo-servicos {
+    color: #ffffff;
     line-height: 42px;
+    width: 700px;
     font-size: 22px;
     text-align: center;
-    width: 700px;
 }
-.texto-amarelo span{
+
+.texto-amarelo {
     color: #fff81b;
 }
-.secao-4 ul{
-    margin: 40px auto 40px auto;
+
+.lista-servicos {
     width: 135px;
+    margin: 40px auto 40px;
+}
+
+.item-lista-servicos {
+    font-size: 22px;
     line-height: 42px;
     text-align: left;
-    font-size: 22px;
+    color: #fff;
 }
-.secao-5 h2{
-    color: #1d80c1;
-    background-color: #ffffff;
-    font-size: 28px;
-    line-height: 42px;
-}
-.secao-5 img{
-    width: 450px;
-}
-.secao-6{
-    background-color: #1d80c1;
-    color: #ffffff;
-}
-.secao-6 h2{
-    font-size: 28px;
-    line-height: 42px;
-}
-.secao-6 p{
+
+/* ===  6ª seção === */
+
+.paragrafo-contato {
+    color: #fff;
     background-color: #1d1d1d;
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.secao-6 ul{
-    margin-bottom: 100px;
+
+.lista-contato {
+    width: 210px;
+    list-style: none;
+    margin: 40px auto 40px;
 }
-.secao-6 ul li{
+
+.item-lista-contato {
     margin-top: 15px;
     text-align: center;
     font-size: 18px;
 }
-.secao-6 ul li a{
+
+.link-contato {
     background-color: #ffffff;
     color: #1d80c1;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 5px;
     border-radius: 5px;
-
-}
-iframe{
-    width: 700px;
-    height: 300px;
 }
